@@ -1,0 +1,14 @@
+{
+	"above": ["brow", "mist", "shape", "layer", "the crag", "stone", "forest", "height"],
+	"below": ["flow", "basin", "shape", "vein", "rippling", "stone", "cove", "rock"],
+	"trans": ["command", "pace", "roam", "trail", "frame", "sweep", "exercise", "range"],
+	"imper": ["track", "shade", "translate", "stamp", "progress through", "direct", "run", "enter"],
+	"intrans": ["linger", "dwell", "rest", "relax", "hold", "dream", "hum"],
+	"adjs": ["encompassing", "rough", "fine", "sinuous", "straight", "objective", "arched", "cool", "clear", "dim", "driven"],
+	"cave": ["#imper# #adjs# #adjs#", "#imper# #adjs# #adjs# #adjs#", "#imper# #adjs# #adjs# #adjs# #adjs#"],
+	"site": ["#above.s# #intrans#", "#below.s# #intrans#"],
+	"path_below": ["#below.s#", "#below#"],
+	"path": ["#above.s# #trans# the #path_below#", "#above# #trans.s# the #path_below#"],
+	"paths": ["#path# / #site# / #site# / #path#", "#path# / #site# / #site# / #site# / #path#", "#path# / #site# / #site# / #site# / #site# / #path#"],
+	"origin": ["#paths# /  / \u00a0\u00a0 #cave#  \u2014 /  "]
+}
