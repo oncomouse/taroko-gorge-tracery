@@ -11,7 +11,7 @@ $(document).ready(function(){
 	function poem() {
 		var GorgeCanvas = document.getElementById('Gorge');
 		if (stanza.length == 0) {
-		stanza = makeStanza(grammar).split(/\s*\/ */);
+			stanza = makeStanza(grammar).split(/\s*\/ */);
 		}
 
 		if(GorgeCanvas.children.length >= 25) {
