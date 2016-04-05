@@ -45,3 +45,5 @@ Into this:
 You can either edit the `./javascript/app.js` file and set `var tracery_grammar;` equal to a tracery grammar or you can edit the `data/grammar.json` file to include your grammar (the Tracery port uses Zepto, required by Tracery, to load external grammars via AJAX).
 
 From there, just upload all the files to a webserver and you're done.
+
+You can also use jQuery in place of Zepto, if that works for your project.
