@@ -1,6 +1,6 @@
 # taroko-gorge-tracery
 
-This is a port of [Taroko Gorge](http://nickm.com/taroko_gorge/original.html), Nick Montford's famous algorithmic poem, into [Tracery](https://github.com/galaxykate/tracery).
+This is a port of [Taroko Gorge](http://nickm.com/taroko_gorge/original.html), Nick Montford's iconic algorithmic poem, into [Tracery](https://github.com/galaxykate/tracery).
 
 ## Why Tracery?
 
