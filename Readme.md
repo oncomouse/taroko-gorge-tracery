@@ -2,6 +2,8 @@
 
 This is a port of [Taroko Gorge](http://nickm.com/taroko_gorge/original.html), Nick Montford's iconic algorithmic poem, into [Tracery](https://github.com/galaxykate/tracery).
 
+[See it in action](http://oncomouse.github.io/taroko-gorge-tracery/).
+
 ## Why Tracery?
 
 I wanted a simpler structure so that students in my class, with little programming experience, could learn how to do variations on Montford's poem.
