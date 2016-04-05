@@ -9,15 +9,15 @@ $(document).ready(function(){
 	}
 	
 	function poem() {
-		var GorgeCanvas = document.getElementById('Gorge');
+		var GorgeCanvas = $('#Gorge');
 		if (stanza.length == 0) {
 			stanza = makeStanza(grammar).split(/\s*\/ */);
 		}
 
-		if(GorgeCanvas.children.length >= 25) {
-			$('#Gorge').children().first().remove();
+		if(GorgeCanvas.children().length >= 25) {
+			GorgeCanvas.children().first().remove();
 		}
-		$('#Gorge').append($('<div>' + stanza.shift() + '</div>'));
+		GorgeCanvas.append($('<div>' + stanza.shift() + '</div>'));
 	}
 	
 	function start_poem(data) {
